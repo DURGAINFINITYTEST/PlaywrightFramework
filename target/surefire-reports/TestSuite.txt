@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.01 sec <<< FAILURE!
+homePageSearch(com.actionclasses.HomepageTest)  Time elapsed: 0.024 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "this.pro" is null
+	at com.actionclasses.HomepageTest.homePageSearch(HomepageTest.java:21)
+
