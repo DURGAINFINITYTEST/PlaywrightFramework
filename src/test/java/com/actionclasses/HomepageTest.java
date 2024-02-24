@@ -4,7 +4,6 @@ import java.util.Properties;
 
 import org.testng.annotations.Test;
 
-import com.pageobjectmodel.Constant;
 import com.pageobjectmodel.HomePage;
 import com.utilities.BaseTest;
 
@@ -13,8 +12,6 @@ public class HomepageTest extends BaseTest {
 
 	@Test
 	public void homePageSearch() {
-
-		System.out.println(Constant.MY_NAME);
 
 		HomePage homePage = new HomePage(page);
 

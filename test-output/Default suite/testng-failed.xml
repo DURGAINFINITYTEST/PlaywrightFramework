@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.practice.Locaters">
+      <class name="com.docPractice.Second">
         <methods>
-          <include name="Locaters"/>
+          <include name="Three"/>
         </methods>
-      </class> <!-- com.practice.Locaters -->
+      </class> <!-- com.docPractice.Second -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
